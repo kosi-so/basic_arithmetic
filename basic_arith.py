@@ -24,7 +24,7 @@ def divide (x, y):
 
 def floor (x, y):
     """Floor Fuction"""
-    pass
+    return x // y
 
 
 def power (x, y):
