@@ -16,7 +16,10 @@ def multiply (x, y):
 
 def divide (x, y):
     """Divide Function"""
-    return x / y
+    if y == 0:
+        return "Real numbers are not divisible by zero"
+    else:
+        return x / y
 
 
 def floor (x, y):
