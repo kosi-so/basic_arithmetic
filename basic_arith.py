@@ -17,9 +17,8 @@ def multiply (x, y):
 def divide (x, y):
     """Divide Function"""
     if y == 0:
-        return "Real numbers are not divisible by zero"
-    else:
-        return x / y
+        raise ValueError ("Real numbers are not divisible by zero")
+    return x / y
 
 
 def floor (x, y):
