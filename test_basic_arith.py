@@ -6,7 +6,7 @@ class TestBasicArith (unittest.TestCase):
 	def test_add(self):
 		self.assertEqual(basic_arith.add(15, 10), 25)
 		self.assertEqual(basic_arith.add(-15, 10), -5)
-		self.assertEqual(basic_arith.add(-15, -10), -35)
+		self.assertEqual(basic_arith.add(-15, -10), -25)
 
 	def test_subtraction(self):
 		self.assertEqual(basic_arith.subtract(15, 10), 5)
@@ -25,7 +25,7 @@ class TestBasicArith (unittest.TestCase):
 
 	def test_floor(self):
 		self.assertEqual(basic_arith.floor(15, 10), 1)
-		self.assertEqual(basic_arith.floor(-15, 10), -1)
+		self.assertEqual(basic_arith.floor(-15, 10), -2)
 		self.assertEqual(basic_arith.floor(-15, -10), 1)
 
 
