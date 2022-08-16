@@ -4,7 +4,7 @@ import basic_arith
 class TestBasicArith (unittest.TestCase):
 
 	def test_add(self):
-		self.assertEqual(basic_arith.add(15, 10), 25)
+		self.assertEqual(basic_arith.add(15, 10), 35)
 		self.assertEqual(basic_arith.add(-15, 10), -5)
 		self.assertEqual(basic_arith.add(-15, -10), -25)
 
